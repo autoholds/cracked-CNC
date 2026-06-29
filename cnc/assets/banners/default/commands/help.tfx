@@ -1,0 +1,24 @@
+[8;26;75t<<$clear>>
+              [38;2;76;0;255m┌───────────┬──────────────────────────────────────────┐
+              [38;2;76;0;255m│[97m CLEAR     [38;2;76;0;255m│[97m Clear the terminal screen.               [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m HELP      [38;2;76;0;255m│[97m View this exact banner.                  [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m METHODS   [38;2;76;0;255m│[97m View the list of availeble methods.      [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m PLAN      [38;2;76;0;255m│[97m View your plan details and information.  [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m ECHO      [38;2;76;0;255m│[97m Echo back the provided text.             [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m LOOKUP    [38;2;76;0;255m│[97m Lookup a target, Cfx code, or phone #.   [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m RECENT    [38;2;76;0;255m│[97m View your last 24 hours of attacks.      [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m PASSWD    [38;2;76;0;255m│[97m Change your password/api-key.            [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m PING      [38;2;76;0;255m│[97m ICMP ping a target IP address.           [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m PAPING    [38;2;76;0;255m│[97m TCP ping a target IP address.            [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m THEMES    [38;2;76;0;255m│[97m Change the appearence of the CNC.        [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m ONGOING   [38;2;76;0;255m│[97m View ongoing attacks in the CNC.         [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m ENCRYPT   [38;2;76;0;255m│[97m Encrypt & echo back the provided text.   [38;2;76;0;255m│
+              [38;2;76;0;255m├───────────┼──────────────────────────────────────────┤
+              [38;2;76;0;255m│[97m ERASE     [38;2;76;0;255m│[97m Manage attack logs in the CNC.           [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m ATTACKS   [38;2;76;0;255m│[97m Enable/disable attacks in the CNC & API. [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m EDITALL   [38;2;76;0;255m│[97m View the editall command usage.          [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m USERS     [38;2;76;0;255m│[97m View all available users commands.       [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m LOGS      [38;2;76;0;255m│[97m View all available logs commands.        [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m BROADCAST [38;2;76;0;255m│[97m Broadcast a message to online users.     [38;2;76;0;255m│
+              [38;2;76;0;255m│[97m COMMANDS  [38;2;76;0;255m│[97m View CNC commands list. (Full Screen)    [38;2;76;0;255m│
+              [38;2;76;0;255m└───────────┴──────────────────────────────────────────┘

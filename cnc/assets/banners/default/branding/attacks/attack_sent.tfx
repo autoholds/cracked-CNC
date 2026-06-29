@@ -1,0 +1,12 @@
+ [8;14;68t<<$clear>> [97mAttack sent successfully[38;2;76;0;255m.[97m
+
+ [97mAttack ID[38;2;76;0;255m: ([97m<<$attack.id>>[38;2;76;0;255m)
+
+ [97mTarget[38;2;76;0;255m: ([97m<<$target.host>>[38;2;76;0;255m)
+ [97mPort[38;2;76;0;255m: ([97m<<$target.port>>[38;2;76;0;255m)
+ [97mAttack Duration[38;2;76;0;255m: ([97m<<$target.duration>> secs[38;2;76;0;255m)
+ [97mMethod Used[38;2;76;0;255m: ([97m<<$target.method>>[38;2;76;0;255m)
+ [97mTarget ASN[38;2;76;0;255m: ([97m<<$target.asn>>[38;2;76;0;255m)
+ [97mTarget Org[38;2;76;0;255m: ([97m<<$target.org>>[38;2;76;0;255m)
+ [97mTarget Country[38;2;76;0;255m: ([97m<<$target.country_code>>[38;2;76;0;255m)
+ [97mTime Sent[38;2;76;0;255m: ([97m<<$target.time_sent>>[38;2;76;0;255m)
